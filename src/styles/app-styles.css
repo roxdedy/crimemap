@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+ html, body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.4em;
+    background-color: #fff;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+    width: 100%;
+}
+
+[data-reactroot] {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+}
+
+.page__header {
+    padding: 40px;
+    text-align: center;
+    display:flex;
+    flex: 0 0 auto;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1b4080;
+}
+
+.page__title {
+    font-size:38px;
+    color: aliceblue;
+}
+
+.map__container{
+    height: 100%;
+    flex-grow: 1;
+}
